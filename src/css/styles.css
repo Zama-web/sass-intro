@@ -1,0 +1,104 @@
+.container {
+  display: block;
+  background-color: yellowgreen;
+  width: 500px;
+  border: 1px solid #5e5e5e;
+  justify-items: center;
+  margin-bottom: 5px; }
+
+h1 {
+  color: yellow;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+p {
+  color: #2013d3;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase; }
+
+.point {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  outline: 2px solid black;
+  border: 2px solid black;
+  align-items: center;
+  background-color: lightblue;
+  outline-offset: -5px;
+  cursor: pointer;
+  border-radius: 50%; }
+
+.main {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  outline: 2px solid black;
+  border: 2px solid black;
+  align-items: center;
+  background-color: #83b624;
+  outline-offset: -5px;
+  border-radius: 50%; }
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+  outline: 2px solid black;
+  padding: 10px 0;
+  width: 500px;
+  margin-top: 10px; }
+
+.btns button {
+  background-color: white;
+  outline: 2px solid black;
+  padding: 5px; }
+
+.image {
+  width: 500px;
+  height: 500px;
+  outline: 2px solid black;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-position: 50px 200px; */ }
+
+#block {
+  left: 0;
+  top: 0;
+  margin-left: 550px;
+  margin-top: 140px;
+  width: 100px;
+  height: 100px;
+  background-color: #9fa822;
+  position: absolute;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+#block2 {
+  left: 0;
+  top: 0;
+  margin-left: 670px;
+  margin-top: 5px;
+  width: 100px;
+  height: 100px;
+  background-color: #e72650;
+  position: absolute;
+  font-size: 25px;
+  text-align: center; }
+
+#block3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 550px;
+  margin-top: 5px;
+  background-color: #41e149;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 18px;
+  border: "2px", solid black;
+  font-size: 25px; }
