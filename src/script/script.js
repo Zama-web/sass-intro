@@ -73,3 +73,31 @@ function getRandomInt(min, max) {
 };
 
 ///////////////////////
+
+$('#but1').on('click', function () {
+    function complete() {}
+    $('#block4').fadeOut( 2000, complete );
+});
+
+$('#but2').click( function() {
+    $('div').show();
+});
+    
+
+
+
+
+
+//////////////////////
+    // $( "#btn1" ).click(function() {
+    //     function complete() {
+    //       $( "<div>" ).text( this.id ).appendTo( "#log" );
+    //     }
+    //     $( "#box1" ).fadeOut( 1600, "linear", complete );
+    //     $( "#box2" ).fadeOut( 1600, complete );
+    //   });
+       
+    //   $( "#btn2" ).click(function() {
+    //     $( "div" ).show();
+    //     $( "#log" ).empty();
+    //   });

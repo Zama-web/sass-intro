@@ -1,6 +1,6 @@
 .container {
     display: block;
-    background-color: yellowgreen;
+    background-color: rgb(231, 132, 92);
     width: 500px;
     border: 1px solid #5e5e5e;
     justify-items: center;
@@ -81,7 +81,8 @@ p {
     margin-top: 140px;
     width: 100px;
     height: 100px;
-    background-color: rgb(159, 168, 34);
+    background-color: rgb(246, 67, 127);
+    color: rgb(93, 62, 35);
     position: absolute; 
     font-size: 25px;
     text-transform: uppercase;
@@ -96,10 +97,12 @@ p {
     margin-top: 5px;
     width: 100px;
     height: 100px;
-    background-color: rgb(231, 38, 80);
+    background-color: rgb(229, 233, 18);
+    color: blue;
     position: absolute; 
     font-size: 25px;
     text-align: center;
+    border-radius: 5px;
 }
 
 
@@ -109,14 +112,47 @@ p {
     top: 0;
     margin-left: 550px;
     margin-top: 5px;
-    background-color: rgb(65, 225, 73);
+    background-color: rgb(43, 241, 198);
     width: 100px;
     height: 100px;
     text-align: center;
     font-size: 18px;   
-    border: "2px", solid black;
     font-size: 25px;
- 
+    border: 2px solid #800008;
+}
+
+#block4 {
+    left: 0;
+    top: 0;
+    margin-left: 670px;
+    margin-top: 140px;
+    width: 180px;
+    height: 100px;
+    background-color: rgb(5, 187, 204);
+    position: absolute; 
+    text-align: center;
+    color: rgb(255, 247, 174);
+    border-radius: 5%;
+    border: 2px solid #800008;
+
+}
+
+#but1 {
+    position: absolute; 
+    left: 0;
+    top: 0;
+    margin-left: 680px;
+    margin-top: 250px;
+    background-color: rgb(24, 182, 24);
+}
+
+#but2 {
+    position: absolute; 
+    left: 0;
+    top: 0;
+    margin-left: 760px;
+    margin-top: 250px;
+    background-color: red;
 }
 
 

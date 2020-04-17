@@ -1,6 +1,6 @@
 .container {
   display: block;
-  background-color: yellowgreen;
+  background-color: #e7845c;
   width: 500px;
   border: 1px solid #5e5e5e;
   justify-items: center;
@@ -70,7 +70,8 @@ p {
   margin-top: 140px;
   width: 100px;
   height: 100px;
-  background-color: #9fa822;
+  background-color: #f6437f;
+  color: #5d3e23;
   position: absolute;
   font-size: 25px;
   text-transform: uppercase;
@@ -84,10 +85,12 @@ p {
   margin-top: 5px;
   width: 100px;
   height: 100px;
-  background-color: #e72650;
+  background-color: #e5e912;
+  color: blue;
   position: absolute;
   font-size: 25px;
-  text-align: center; }
+  text-align: center;
+  border-radius: 5px; }
 
 #block3 {
   position: absolute;
@@ -95,10 +98,40 @@ p {
   top: 0;
   margin-left: 550px;
   margin-top: 5px;
-  background-color: #41e149;
+  background-color: #2bf1c6;
   width: 100px;
   height: 100px;
   text-align: center;
   font-size: 18px;
-  border: "2px", solid black;
-  font-size: 25px; }
+  font-size: 25px;
+  border: 2px solid #800008; }
+
+#block4 {
+  left: 0;
+  top: 0;
+  margin-left: 670px;
+  margin-top: 140px;
+  width: 180px;
+  height: 100px;
+  background-color: #05bbcc;
+  position: absolute;
+  text-align: center;
+  color: #fff7ae;
+  border-radius: 5%;
+  border: 2px solid #800008; }
+
+#but1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 680px;
+  margin-top: 250px;
+  background-color: #18b618; }
+
+#but2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 760px;
+  margin-top: 250px;
+  background-color: red; }
